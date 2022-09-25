@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Encriptador Alura</title>
+    <link rel="icon" href="imagenes/ico.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div>
+            <a href="https://www.aluracursos.com/" target="_blank">
+                <img class="logo" src="imagenes/logo.png">
+            </a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <textarea class="input"
+            cols="40" rows="6"
+            placeholder="Ingrese el texto aquí"></textarea>
+           <div class="botones">
+                <button class="btn encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="info"
+            cols="18" rows="8"></textarea>
+            <div class="botones">
+                <button class="btn copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </main>
+  </body>
+</html>
